@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital Management Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🏥 CityCare Hospital</h1>
+  </header>
+
+  <section class="login-section">
+    <h2>Login to Continue</h2>
+    <form id="loginForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" required>
+
+      <label for="role">Login as:</label>
+      <select id="role" required>
+        <option value="">Select Role</option>
+        <option value="admin">Admin</option>
+        <option value="patient">Patient</option>
+      </select>
+
+      <button type="submit">Login</button>
+      <p id="loginMessage"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CityCare Hospital</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
